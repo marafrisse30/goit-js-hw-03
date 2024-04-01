@@ -2,6 +2,17 @@
 
 function filterArray(numbers, value){
 
+    let newNumbersArray = []
+
+    for(let i = 0; i <= numbers.length; i++){
+
+        if(numbers[i] > value){
+       newNumbersArray.push(numbers[i])
+     
+        }
+    }
+
+    return newNumbersArray
 
 }
 
